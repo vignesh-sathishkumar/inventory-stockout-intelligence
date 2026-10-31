@@ -1,0 +1,158 @@
+{
+  "project": "Inventory & Stockout Intelligence",
+  "data_type": "Synthetic simulated retail data; not actual company performance",
+  "period_start": "2026-01-01",
+  "period_end": "2026-06-29",
+  "stores": 8,
+  "products": 36,
+  "store_product_days": 51840,
+  "total_demand_units": 371133,
+  "units_sold": 369687,
+  "lost_sales_units": 1446,
+  "fulfillment_rate_pct": 99.61,
+  "stockout_observation_rate_pct": 0.41,
+  "revenue_inr": 50701420.43,
+  "estimated_lost_revenue_inr": 214356.78,
+  "categories": {
+    "Dairy": {
+      "revenue_inr": 8884217.69,
+      "lost_revenue_inr": 54448.17,
+      "demand_units": 74342,
+      "sold_units": 73985,
+      "stockout_days": 53,
+      "observations": 8640,
+      "fulfillment_rate_pct": 99.52,
+      "stockout_rate_pct": 0.61
+    },
+    "Produce": {
+      "revenue_inr": 14003520.43,
+      "lost_revenue_inr": 123439.59,
+      "demand_units": 92492,
+      "sold_units": 91647,
+      "stockout_days": 120,
+      "observations": 8640,
+      "fulfillment_rate_pct": 99.09,
+      "stockout_rate_pct": 1.39
+    },
+    "Beverages": {
+      "revenue_inr": 9384765.63,
+      "lost_revenue_inr": 35686.77,
+      "demand_units": 65213,
+      "sold_units": 64976,
+      "stockout_days": 40,
+      "observations": 8640,
+      "fulfillment_rate_pct": 99.64,
+      "stockout_rate_pct": 0.46
+    },
+    "Snacks": {
+      "revenue_inr": 6834766.04,
+      "lost_revenue_inr": 782.25,
+      "demand_units": 55987,
+      "sold_units": 55980,
+      "stockout_days": 2,
+      "observations": 8640,
+      "fulfillment_rate_pct": 99.99,
+      "stockout_rate_pct": 0.02
+    },
+    "Staples": {
+      "revenue_inr": 6802192.17,
+      "lost_revenue_inr": 0.0,
+      "demand_units": 46159,
+      "sold_units": 46159,
+      "stockout_days": 0,
+      "observations": 8640,
+      "fulfillment_rate_pct": 100.0,
+      "stockout_rate_pct": 0.0
+    },
+    "Personal Care": {
+      "revenue_inr": 4791958.47,
+      "lost_revenue_inr": 0.0,
+      "demand_units": 36940,
+      "sold_units": 36940,
+      "stockout_days": 0,
+      "observations": 8640,
+      "fulfillment_rate_pct": 100.0,
+      "stockout_rate_pct": 0.0
+    }
+  },
+  "cities": {
+    "Chennai": {
+      "revenue_inr": 12675529.1,
+      "lost_revenue_inr": 52722.67,
+      "demand_units": 92935,
+      "sold_units": 92560,
+      "stockout_days": 60,
+      "observations": 12960,
+      "fulfillment_rate_pct": 99.6,
+      "stockout_rate_pct": 0.46
+    },
+    "Bengaluru": {
+      "revenue_inr": 12647990.66,
+      "lost_revenue_inr": 54546.8,
+      "demand_units": 92637,
+      "sold_units": 92274,
+      "stockout_days": 47,
+      "observations": 12960,
+      "fulfillment_rate_pct": 99.61,
+      "stockout_rate_pct": 0.36
+    },
+    "Hyderabad": {
+      "revenue_inr": 12689432.01,
+      "lost_revenue_inr": 54585.48,
+      "demand_units": 92895,
+      "sold_units": 92542,
+      "stockout_days": 53,
+      "observations": 12960,
+      "fulfillment_rate_pct": 99.62,
+      "stockout_rate_pct": 0.41
+    },
+    "Coimbatore": {
+      "revenue_inr": 12688468.66,
+      "lost_revenue_inr": 52501.83,
+      "demand_units": 92666,
+      "sold_units": 92311,
+      "stockout_days": 55,
+      "observations": 12960,
+      "fulfillment_rate_pct": 99.62,
+      "stockout_rate_pct": 0.42
+    }
+  },
+  "months": {
+    "2026-01": {
+      "revenue_inr": 8760655.48,
+      "lost_revenue_inr": 16930.91,
+      "demand_units": 64119,
+      "sold_units": 64007
+    },
+    "2026-02": {
+      "revenue_inr": 7900600.6,
+      "lost_revenue_inr": 30773.59,
+      "demand_units": 57749,
+      "sold_units": 57556
+    },
+    "2026-03": {
+      "revenue_inr": 8752375.54,
+      "lost_revenue_inr": 33524.95,
+      "demand_units": 63938,
+      "sold_units": 63706
+    },
+    "2026-04": {
+      "revenue_inr": 8409684.4,
+      "lost_revenue_inr": 55000.25,
+      "demand_units": 61626,
+      "sold_units": 61249
+    },
+    "2026-05": {
+      "revenue_inr": 8769043.63,
+      "lost_revenue_inr": 39604.65,
+      "demand_units": 64378,
+      "sold_units": 64120
+    },
+    "2026-06": {
+      "revenue_inr": 8109060.78,
+      "lost_revenue_inr": 38522.43,
+      "demand_units": 59323,
+      "sold_units": 59049
+    }
+  }
+}

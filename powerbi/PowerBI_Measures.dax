@@ -1,0 +1,12 @@
+-- Create relationships: inventory_daily[product_id] -> products[product_id]
+-- inventory_daily[store_id] -> stores[store_id]. Set many-to-one, single direction.
+Total Demand = SUM(inventory_daily[demand_units])
+Units Sold = SUM(inventory_daily[units_sold])
+Lost Units = SUM(inventory_daily[lost_sales_units])
+Revenue INR = SUM(inventory_daily[revenue_inr])
+Estimated Lost Revenue INR = SUM(inventory_daily[estimated_lost_revenue_inr])
+Fulfillment Rate % = DIVIDE([Units Sold], [Total Demand], 0)
+Stockout Observation Rate % = DIVIDE(SUM(inventory_daily[stockout_flag]), COUNTROWS(inventory_daily), 0)
+Stockout Observations = SUM(inventory_daily[stockout_flag])
+Average Closing Stock = AVERAGE(inventory_daily[closing_stock])
+-- Format percentage measures as Percentage in Power BI.

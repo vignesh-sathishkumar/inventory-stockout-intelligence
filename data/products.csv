@@ -1,0 +1,37 @@
+product_id,product_name,category,unit_cost_inr,selling_price_inr,lead_time_days,safety_stock_units
+P001,Dairy Item 1,Dairy,109.52,149.61,5,12
+P002,Dairy Item 2,Dairy,138.75,187.44,4,20
+P003,Dairy Item 3,Dairy,44.13,56.1,3,16
+P004,Dairy Item 4,Dairy,49.86,58.77,3,20
+P005,Dairy Item 5,Dairy,167.77,222.2,5,20
+P006,Dairy Item 6,Dairy,39.15,46.56,4,25
+P007,Produce Item 1,Produce,161.31,216.66,7,16
+P008,Produce Item 2,Produce,72.07,107.21,5,30
+P009,Produce Item 3,Produce,119.06,176.25,3,12
+P010,Produce Item 4,Produce,95.9,114.69,4,25
+P011,Produce Item 5,Produce,113.3,140.57,3,30
+P012,Produce Item 6,Produce,134.04,161.55,5,16
+P013,Beverages Item 1,Beverages,36.28,54.15,5,25
+P014,Beverages Item 2,Beverages,116.28,172.83,3,12
+P015,Beverages Item 3,Beverages,38.27,54.66,4,12
+P016,Beverages Item 4,Beverages,132.4,185.06,3,25
+P017,Beverages Item 5,Beverages,120.28,182.67,4,12
+P018,Beverages Item 6,Beverages,156.55,215.63,4,30
+P019,Snacks Item 1,Snacks,67.01,90.67,2,20
+P020,Snacks Item 2,Snacks,79.71,111.75,3,12
+P021,Snacks Item 3,Snacks,31.15,44.39,7,20
+P022,Snacks Item 4,Snacks,98.0,119.83,2,12
+P023,Snacks Item 5,Snacks,83.26,105.91,4,25
+P024,Snacks Item 6,Snacks,175.2,260.29,4,20
+P025,Staples Item 1,Staples,45.56,56.38,7,16
+P026,Staples Item 2,Staples,125.53,155.58,4,20
+P027,Staples Item 3,Staples,88.89,127.51,4,20
+P028,Staples Item 4,Staples,156.33,235.42,4,20
+P029,Staples Item 5,Staples,172.31,217.62,3,16
+P030,Staples Item 6,Staples,77.59,91.83,4,20
+P031,Personal Care Item 1,Personal Care,44.45,54.01,3,20
+P032,Personal Care Item 2,Personal Care,51.95,61.66,2,12
+P033,Personal Care Item 3,Personal Care,109.0,138.79,2,16
+P034,Personal Care Item 4,Personal Care,144.75,216.46,2,12
+P035,Personal Care Item 5,Personal Care,124.12,172.38,3,25
+P036,Personal Care Item 6,Personal Care,109.91,137.15,5,25
